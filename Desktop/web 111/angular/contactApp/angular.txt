@@ -1,0 +1,6 @@
+     Basic commands
+
+     1.create project -ng new project-name
+     2. Run project- ng serve
+     3.Generating Component :ng g c 
+     

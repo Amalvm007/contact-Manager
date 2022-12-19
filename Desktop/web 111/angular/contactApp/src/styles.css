@@ -1,0 +1,9 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,100&family=Shalimar&display=swap');
+
+body{
+    font-family: 'Shalimar', cursive;
+}
+.contact_image{
+    width: 130px;
+}
