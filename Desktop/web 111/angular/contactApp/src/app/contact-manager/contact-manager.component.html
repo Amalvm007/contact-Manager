@@ -38,8 +38,8 @@
                                 <li class="list-group-item">Name: <br>{{contact.name}} <br></li>
                                 <li class="list-group-item">Email: <br>{{contact.email}} <br></li>
                                 <li class="list-group-item">Mobile: <br>{{contact.mobile}} <br></li>
-                                <li class="list-group-item">company: <br>{{contact.company}} <br></li>
-                                <li class="list-group-item">title: <br>{{contact.title}} <br></li>
+                                <!-- <li class="list-group-item">company: <br>{{contact.company}} <br></li>
+                                <li class="list-group-item">title: <br>{{contact.title}} <br></li> -->
 
 
 
@@ -53,11 +53,11 @@
                             </a>
                             <!-- to edit  -->
     
-                            <a routerLink="/contacts/edit"  class="btn btn-success mt-1">
+                            <a routerLink="/contacts/edit/{{contact.id}}"  class="btn btn-success mt-1">
                                 <i class="fa-solid fa-pen-to-square"></i>
                             </a>
                             <!-- delete  -->
-                            <button class="btn btn-danger mt-1">
+                            <button (click)="deleteContact(contact.id)" class="btn btn-danger mt-1">
                                 <i class="fa-solid fa-trash"></i>
                             </button>
                         </div>

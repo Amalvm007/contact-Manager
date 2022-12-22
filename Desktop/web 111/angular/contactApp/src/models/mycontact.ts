@@ -6,5 +6,5 @@
     mobile?:string
     company?:string
     title?:string
-    group?:string
+    groupId?:string
 }

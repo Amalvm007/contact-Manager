@@ -14,42 +14,47 @@
               </p>
         </div>
     </div>
+    <!-- <pre>
+        {{groups | json}}
+      </pre> -->
     <!-- edit  contact -->
     <div class="container">
         <div class="row">
             <div class="col-md-6">
                 <form class="border p-3 rounded " >
                     <div class="mb-2">
-                        <input placeholder="Name" type="text" class="form-control">
+                        <input name="cName" [(ngModel)]="contact.name" placeholder="Name" type="text" class="form-control">
+                    </div> 
+                    <div class="mb-2">
+                        <input name="cEmail" [(ngModel)]="contact.email" placeholder="Email" type="text" class="form-control">
                     </div>
                     <div class="mb-2">
-                        <input placeholder="Email" type="text" class="form-control">
+                        <input name="cphoto" [(ngModel)]="contact.photo" placeholder="Photo" type="text" class="form-control">
                     </div>
                     <div class="mb-2">
-                        <input placeholder="Mobile Number " type="text" class="form-control">
+                        <input name="cMobile" [(ngModel)]="contact.mobile"placeholder="Mobile Number " type="text" class="form-control">
                     </div>
                     <div class="mb-2">
-                        <input placeholder="Company" type="text" class="form-control">
+                        <input name="cCompany" [(ngModel)]="contact.company" placeholder="Company" type="text" class="form-control">
                     </div>
                     <div class="mb-2">
-                        <input placeholder="Title" type="text" class="form-control">
+                        <input name="cTitle" [(ngModel)]="contact.title" placeholder="Title" type="text" class="form-control">
                     </div>
                     <div class="mb-2">
-                        <select name="" id="" class="form-control">
+                        <select name="groupId" [(ngModel)]="contact.groupId" id="" class="form-control">
                             <option value="" selected hidden disabled> Select A Group</option>
-                            <option value="" >Family</option>
-                            <option value="" >Friends</option>
-                            <option value="" ></option>
+                            <option [value]="group.id" *ngFor="let group of groups " >{{group.name}}</option>
+                            
                         </select>
                     </div>
                     <div class="mb-2">
-                        <input value="Update" type="button" class="btn btn-success">
+                        <input value="Update" (click)="updateContact()" type="button" class="btn btn-success">
                         <a routerLink="/" class="btn btn-warning ms-3">Close</a>
                     </div>
                 </form>
             </div>
             <div class="col-md-4">
-                <img  width="200px" src="https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png" alt="" class="contact_image">
+                <img  width="200px" [src]="contact.photo" alt="" class="contact_image">
 
 
 

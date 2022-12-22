@@ -21,7 +21,7 @@ const routes: Routes = [
   },
   // update contact compounds
   {
-    path:'contacts/edit',component:UpdateContactComponent
+    path:'contacts/edit/:contactId',component:UpdateContactComponent
   },
   {
     path:'contacts/view/:contactId',component:ViewContactComponent
