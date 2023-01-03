@@ -1,0 +1,27 @@
+.card{
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 20px;
+    color: white;
+}
+.icon{
+    font-size: 30px;
+    width: fit-content;
+    
+}
+
+.red{
+    background-color: rgb(225, 88, 88);
+}
+.blue{
+    background-color: rgb(106, 106, 225);
+}
+.orange{
+    background-color: rgb(227, 175, 79);
+}
+.green{
+    background-color: rgb(103, 228, 103);
+}

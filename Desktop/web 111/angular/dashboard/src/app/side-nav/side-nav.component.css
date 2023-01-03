@@ -1,0 +1,12 @@
+.profile-card {
+    text-align: center;
+}
+    
+
+.profile-card img{
+    width: 100px;
+    height: 100px;
+}
+a:hover{
+    background-color: rgb(202, 199,199);
+}
