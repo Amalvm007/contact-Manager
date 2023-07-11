@@ -1,0 +1,123 @@
+{
+    "contacts": [
+      {
+        "id":"ca1",
+        "name": "amal",
+        "email":"amal@123gmail.com",
+        "mobile":"1234567890",
+        "photo":"https://i0.wp.com/flickside.com/wp-content/uploads/2022/11/highest-paid-actors.jpg?fit=1200%2C900&ssl=1",
+        "company":"tcs",
+        "title":"developer",
+        "groupId":"1"
+      },
+      {
+        "id":"ca2",
+        "name": "sree",
+        "email":"sree@123gmail.com",
+        "mobile":"1234567891",
+        "photo":"https://qph.cf2.quoracdn.net/main-qimg-69628c4c46a0394afad7045b5ee8e5c1-pjlq",
+        "company":"tcs",
+        "title":"Admin",
+        "groupId":"4"
+      },
+      {
+        "id":"ca3",
+        "name": "jagan",
+        "email":"jagan@123gmail.com",
+        "mobile":"1234567892",
+        "photo":"https://www.usatoday.com/gcdn/-mm-/2e379b55c81857156365010c8bdd1e9a2c6d1399/c=0-0-1593-900/local/-/media/2018/01/21/USATODAY/USATODAY/636520910145279461-AP-PEOPLE-JAMES-FRANCO-96467765.JPG",
+        "company":"tcs",
+        "title":"worker",
+        "groupId":"1"
+      },
+      {
+        "id":"ca4",
+        "name": "pranav",
+        "email":"pranav@123gmail.com",
+        "mobile":"1234567893",
+        "photo":"https://stylesatlife.com/wp-content/uploads/2022/03/Hollywood-male-actors.jpg.webp",
+        "company":"esaf",
+        "title":"sales head",
+        "groupId":"2"
+      },
+      {
+        "id":"ca5",
+        "name": "anandhu",
+        "email":"anandhu@123gmail.com",
+        "mobile":"1234567894",
+        "photo":"https://e0.pxfuel.com/wallpapers/366/988/desktop-wallpaper-chris-hemsworth-chris-actor-hollywood-thumbnail.jpg",
+        "company":"tcs",
+        "title":"editor",
+        "groupId":"2"
+      },
+      {
+        "id":"ca6",
+        "name": "aneesh",
+        "email":"aneesh@123gmail.com",
+        "mobile":"1234567895",
+        "photo":"https://images.saymedia-content.com/.image/t_share/MTg3ODcyNzg5MjEzMDI5NDMw/greatest-hollywood-actors.jpg",
+        "company":"tcs",
+        "title":"Admin",
+        "groupId":"4"
+      },
+      {
+        "id":"ca7",
+        "name": "unni",
+        "email":"unni@123gmail.com",
+        "mobile":"1234567896",
+        "photo":"https://www.mrdustbin.com/en/wp-content/uploads/2021/05/leonardo-dicaprio-853x1024.jpg",
+        "company":"tcs",
+        "title":"builder",
+        "groupId":"1"
+      },
+      {
+        "id":"ca8",
+        "name": "dady",
+        "email":"mukundan@123gmail.com",
+        "mobile":"1234567897",
+        "photo":"https://static.javatpoint.com/top10-technologies/images/top-10-hollywood-actors9.png",
+        "company":"amg",
+        "title":"founder",
+        "groupId":"2"
+      },
+      {
+        "id":"ca9",
+        "name": "nayana",
+        "email":"nayana@123gmail.com",
+        "mobile":"1234567898",
+        "photo":"https://img.starbiz.com/resize/750x-/2020/02/11/amber-heard-2a66.jpg",
+        "company":"vista",
+        "title":"Admin",
+        "groupId":"1"
+      },
+      {
+        "id":"ca10",
+        "name": "valsala",
+        "email":"valsala@123gmail.com",
+        "mobile":"1234567899",
+        "photo":"https://teqip.in/wp-content/uploads/2022/12/Scarlett-Johansson.jpg",
+        "company":"home",
+        "title":"Admin",
+        "groupId":"2"
+      }
+    ],
+    "groupId": [
+        {
+        "id":"1",
+      "name": "friends"
+    },
+    {
+        "id":"2",
+      "name": "family"
+    },
+    {
+        "id":"3",
+      "name": "roommate"
+    },
+    {
+        "id":"4",
+      "name": "partner"
+    }
+]
+
+  }
