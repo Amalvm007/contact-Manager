@@ -1,0 +1,12 @@
+#background{
+    background-color: rgb(192, 203, 203);
+    border-radius: 40px;
+}
+.container{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+ 
+}

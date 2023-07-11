@@ -1,0 +1,52 @@
+<!-- header selector -->
+<app-header></app-header>
+
+<div class="container mt-3">
+    <h2>Register Form</h2>
+    <P>
+        This is a register form of our bank. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde, et quibusdam? Provident eos expedita inventore, quod aspernatur harum rerum nobis, impedit magnam alias ex earum labore, tempore hic vero ea. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni esse consequuntur, blanditiis nihil laborum ipsa voluptatum impedit in! Expedita voluptates facere dolores laudantium ullam rem odio error, culpa atque sint?
+    </P>
+    <div class="row">
+        <div class="col-6"  >
+            <img height="460px" src="https://img.freepik.com/free-vector/registration-form-template-with-flat-design_23-2147971970.jpg?w=2000" alt="">
+
+        </div>
+        <div class="col-6 "  >
+            <form (ngSubmit)="register()" [formGroup]="registerForm" class=" form border rounded  p-5 mt-2 ml-5">
+                <div class="form-floating mb-3">
+                    <input name="name" formControlName="name" type="text" class="form-control" id="floatingInput" placeholder="Account number">
+                    <label for="floatingInput">Name</label>
+                  </div>
+                  <!-- invaild form  -->
+                  <div *ngIf=" this.registerForm.get('name')?.errors &&  this.registerForm.get('name')?.touched" class="text-danger mb-2">
+                    Invaild Username
+                  </div>
+                <div class="form-floating mb-3">
+                    <input name="acno" formControlName="acno" type="text" class="form-control" id="floatingInput" placeholder="Account number">
+                    <label for="floatingInput">Account Number</label>
+                  </div>
+                  <!-- invaild form  -->
+                  <div *ngIf=" this.registerForm.get('acno')?.errors &&  this.registerForm.get('acno')?.touched" class="text-danger mb-2">
+                    Invaild Account Number
+                  </div>
+                  <div class="form-floating">
+                    <input name="pswd" formControlName="pswd" type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                    <label for="floatingPassword">Password</label>
+                  </div>
+                  <!-- invaild password -->
+                  <div *ngIf="this.registerForm.get('pswd')?.errors && this.registerForm.get('pswd')?.touched" class="text-danger mt-2">
+                    Invaild password
+                  </div>
+                <div class="mt-4">
+                    <button type="submit" class="btn btn-primary">
+                        Register
+                    </button>&nbsp;
+                    <button class="btn btn-warning" routerLink="/">
+                        Back
+                    </button>
+                </div>
+            </form>
+
+        </div>
+    </div>
+</div>

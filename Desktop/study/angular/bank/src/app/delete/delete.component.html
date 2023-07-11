@@ -1,0 +1,15 @@
+<div *ngIf="item"  class="container mt-5">
+
+    <div class="row ">
+        <div class="col-lg-4"></div>
+        <div class="col-lg-4 ">
+            <div id="background" class="text-center border p-5">
+                <h4>Are you sure,do you want this delete this account? </h4>
+                <div (click)="deleteAcc()" class="btn btn-danger mt-2">Yes</div> &nbsp; &nbsp;
+                <div (click)="cancel()" class="btn btn-success mt-2">No</div>
+            </div>
+        </div>
+        <div class="col-lg-4"></div>
+    </div>
+    
+</div>
